@@ -82,11 +82,7 @@ def extract_entities(text, ner_pipeline):
 # ------------------------------
 def main():
     st.title("Meeting Transcription and Entity Extraction")
-
-    # Student details
-    STUDENT_NAME = "Your Name"
-    STUDENT_ID = "Your Student ID"
-    st.write(f"**{STUDENT_ID} - {STUDENT_NAME}**")
+    st.write("150220339 - Muhammed Hasan Bilal Cebeci")
 
     # Load models
     st.write("Modeller yükleniyor...")
